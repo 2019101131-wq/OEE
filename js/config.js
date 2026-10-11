@@ -24,8 +24,8 @@
  */
 
 const CONFIG = {
-  SUPABASE_URL: "https://ozreemmolwypedsqpcnu.supabase.co", // ej: https://abcdxyz.supabase.co
-  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96cmVlbW1vbHd5cGVkc3FwY251Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3NTQxNDgsImV4cCI6MjEwNzMzMDE0OH0.GpylIZG9mBj5j51paaq33J98tWXfQVGeecg3R8Ob7Kg",
+  SUPABASE_URL: "https://vpxffecldyjygegcdnqj.supabase.co", // ej: https://abcdxyz.supabase.co
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZweGZmZWNsZHlqeWdlZ2NkbnFqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3NTQ4NjcsImV4cCI6MjEwNzMzMDg2N30.3W-_4DrXrrrGgCysUrxJ18bIG5UJxZURtuC_1f6Kx38",
 
   // Nombre de la tabla creada con supabase.sql
   TABLE: "registros",
