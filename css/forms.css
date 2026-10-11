@@ -1,0 +1,22 @@
+.form-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px 16px;
+}
+.form-grid h3 { grid-column: 1 / -1; }
+.form-grid label {
+  display: flex; flex-direction: column; gap: 5px; font-size: 12px; font-weight: 600; color: var(--text-muted);
+}
+.form-grid input, .form-grid select, .form-grid textarea {
+  padding: 9px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 13.5px;
+  font-family: inherit; color: var(--text); background: #fff;
+}
+.form-grid input:focus, .form-grid select:focus, .form-grid textarea:focus {
+  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light);
+}
+.form-grid input[readonly] { background: #F4F6F9; color: var(--text-muted); }
+.form-grid textarea { resize: vertical; font-family: inherit; }
+.span-2 { grid-column: span 2; }
+
+.form-actions { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px; }
+.form-info { color: var(--accent); font-size: 12.5px; font-weight: 600; }
+
+.hidden { display: none !important; }
